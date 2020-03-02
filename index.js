@@ -20,6 +20,7 @@ const templateDirectories = [
 const templateFiles = [
     'src/index.ts',
     'test/index.js',
+    '.gitignore',
     'CHANGELOG.md',
     'LICENSE',
     'README.md',
