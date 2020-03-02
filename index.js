@@ -157,7 +157,7 @@ program
                     || `${data.author}/${name}`,
                 keywords: args.getOption('--keywords'),
                 files: [
-                    'dist',
+                    'js',
                     'types',
                     'index.d.ts'
                 ],
