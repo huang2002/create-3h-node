@@ -42,6 +42,7 @@ your-awesome-lib/
 | `-- index.ts
 +-- test/
 | `-- index.js
++-- .gitignore
 +-- CHANGELOG.md
 +-- LICENSE
 +-- README.md
