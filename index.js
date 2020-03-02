@@ -163,7 +163,7 @@ program
                     'index.d.ts'
                 ],
                 devDependencies: {
-                    dts2md: '^0.1.0',
+                    dts2md: '^0.2.0',
                     typescript: '^3.8.0',
                     '@types/node': '^13.7.0'
                 }
