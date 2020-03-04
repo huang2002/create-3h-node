@@ -20,7 +20,6 @@ const templateDirectories = [
 const templateFiles = [
     'src/index.ts',
     'test/index.js',
-    '.gitignore',
     'CHANGELOG.md',
     'LICENSE',
     'README.md',
@@ -141,6 +140,17 @@ program
 
         console.log('Generating files...');
         await renderTemplates(data);
+        /**
+         * it seems that npm will somehow convert .gitignore
+         * into .npmignore when installing the package,
+         * so this file has to be added manually
+         */
+        await fsPromises.writeFile('.gitignore', [
+            'node_modules',
+            'types',
+            'js',
+            '.tsbuildinfo',
+        ].join('\n') + '\n');
         await fsPromises.writeFile('package.json', JSON.stringify(
             {
                 name,
