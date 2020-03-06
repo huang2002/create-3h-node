@@ -162,7 +162,7 @@ program
                 license: 'MIT',
                 scripts: {
                     build: 'tsc',
-                    docs: 'dts2md -i ./types -o ./docs -l -- * !index.d.ts',
+                    docs: 'dts2md -i ./types -o ./docs -l -I Home.md -- ** !index.d.ts',
                 },
                 repository: args.getOption('--repo')[0]
                     || `${data.author}/${name}`,
@@ -173,7 +173,7 @@ program
                     'index.d.ts'
                 ],
                 devDependencies: {
-                    dts2md: '^0.2.0',
+                    dts2md: '^0.3.0',
                     typescript: '^3.8.0',
                     '@types/node': '^13.7.0'
                 }
