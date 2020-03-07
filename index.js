@@ -128,7 +128,7 @@ program
 
         const data = {
             name,
-            desc: args.getOption('--desc')[0] || `This is ${name}.`,
+            desc: args.getOption('--desc').join(' ') || `This is ${name}.`,
             author: options.get('--author')[0],
             year: (new Date()).getFullYear() + '',
         };
