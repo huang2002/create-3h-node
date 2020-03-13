@@ -8,7 +8,7 @@
     "test": "node ./index.js -n test -a 3h -k a b c --no-install",
     "help": "node ./index.js --help"
   },
-  "repository": "huang2002/create-3h-fe",
+  "repository": "huang2002/create-3h-node",
   "keywords": [
     "node",
     "lib",
