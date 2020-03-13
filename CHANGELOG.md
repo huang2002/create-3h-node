@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2
+
+- Fix `respository` field in `package.json`
+
 ## 0.3.1
 
 - Fix `--desc` option
