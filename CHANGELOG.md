@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+- Disable ts incremental build by defalut
+
 ## 0.3.2
 
 - Fix `respository` field in `package.json`
