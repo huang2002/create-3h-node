@@ -149,7 +149,6 @@ program
             'node_modules',
             'types',
             'js',
-            '.tsbuildinfo',
         ].join('\n') + '\n');
         await fsPromises.writeFile('package.json', JSON.stringify(
             {

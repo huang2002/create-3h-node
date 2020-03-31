@@ -9,9 +9,7 @@
         "strict": true,
         "noUnusedLocals": true,
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "incremental": true,
-        "tsBuildInfoFile": "./.tsbuildinfo"
+        "esModuleInterop": true
     },
     "include": [
         "src"
