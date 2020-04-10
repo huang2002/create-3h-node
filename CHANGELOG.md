@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+- Update `dts2md`
+
 ## 0.4.0
 
 - Disable ts incremental build by defalut
