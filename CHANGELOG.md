@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.2
+
+- Fix module type
+
 ## 0.5.1
 
 - Fix template entry point
