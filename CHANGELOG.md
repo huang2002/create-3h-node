@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1
+
+- Fix template entry point
+
 ## 0.5.0
 
 - Update `dts2md`
