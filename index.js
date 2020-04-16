@@ -169,7 +169,6 @@ program
                 files: [
                     'js',
                     'types',
-                    'index.d.ts'
                 ],
                 devDependencies: {
                     dts2md: '^0.4.0',
