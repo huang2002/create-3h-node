@@ -155,7 +155,7 @@ program
                 name,
                 version: '0.1.0',
                 description: data.desc,
-                main: `./js/${name}.js`,
+                main: `./js/index.js`,
                 types: './types/index.d.ts',
                 author: data.author,
                 license: 'MIT',
