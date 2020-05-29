@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/huang2002/create-3h-node#readme",
   "devDependencies": {
-    "@types/node": "^13.7.4"
+    "@types/node": "^13.13.9"
   },
   "dependencies": {
     "3h-cli": "^2.2.1"
