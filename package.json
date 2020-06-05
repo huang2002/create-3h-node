@@ -1,6 +1,6 @@
 {
   "name": "create-3h-node",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "A node lib initializer.",
   "bin": "./index.js",
   "scripts": {
