@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.4
+
+- Fix script command
+
 ## 0.5.3
 
 - Fix file manifest
