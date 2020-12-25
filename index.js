@@ -172,8 +172,8 @@ program
                 ],
                 devDependencies: {
                     dts2md: '^0.4.0',
-                    typescript: '^3.8.0',
-                    '@types/node': '^13.7.0'
+                    typescript: '^4.1.0',
+                    '@types/node': '^14.14.0'
                 }
             },
             null, // replacer
