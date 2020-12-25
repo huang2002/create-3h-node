@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.5
+
+- Update deps
+
 ## 0.5.4
 
 - Fix script command
